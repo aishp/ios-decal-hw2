@@ -15,6 +15,7 @@
 		3AAA63A41BA9263900E3822E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA63A21BA9263900E3822E /* LaunchScreen.storyboard */; };
 		3AAA63B31BA9283500E3822E /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */; };
 		3AAA63B71BA9283500E3822E /* CalKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3AAA63B01BA9283500E3822E /* CalKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8369FCEF1BB319BC003249EF /* CustomKeyboard.app in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA63961BA9263900E3822E /* CustomKeyboard.app */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */,
+				8369FCEF1BB319BC003249EF /* CustomKeyboard.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
