@@ -79,7 +79,7 @@ class KeyboardViewController: UIInputViewController {
     @IBAction func likeButtonPressed(sender: UIButton) {
         self.textDocumentProxy.insertText("👍")
     }
-    @IBAction func dislikeButtonPressed(sender: AnyObject) {
+    @IBAction func dislikeButtonPressed(sender: UIButton) {
         self.textDocumentProxy.insertText("👎")
     }
     @IBAction func numberButtonPressed(sender: UIButton) {
@@ -99,10 +99,10 @@ class KeyboardViewController: UIInputViewController {
         
         }
     }
-    @IBAction func helloButtonPressed(sender: AnyObject) {
+    @IBAction func helloButtonPressed(sender: UIButton) {
         self.textDocumentProxy.insertText("Hello")
     }
-    @IBAction func byeButtonPressed(sender: AnyObject) {
+    @IBAction func byeButtonPressed(sender: UIButton) {
         self.textDocumentProxy.insertText("Bye")
     }
 }
